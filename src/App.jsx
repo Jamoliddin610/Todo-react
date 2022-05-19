@@ -1,10 +1,11 @@
 import 'boxicons'
-import './App.css';
+import './assets/global.css'
+import Todo from './components/Todo/Todo'
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
+    <div className="box">
+      <Todo/>
     </div>
   );
 }
