@@ -19,7 +19,7 @@ background-color: darkgreen;
 }
 
 .box {
-  padding: 30px;
+  padding: 30px 30px 15px;
   background: rgb(255, 255, 255);
   border: 1px solid #000;
   height: auto;
@@ -85,13 +85,41 @@ font-family: 'Roboto', sans-serif;
   border: 1px solid red;
   border-radius: 5px;
   padding: 5px 10px;
+  font-size: 16px;
+
+}
+.check-button {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: darkgreen;
+  background: none;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+.check-button:hover{
+  color: #fff;
+  background-color: darkgreen;
 }
 
 .delete-button:hover {
   color: #fff;
   background: rgb(111, 0, 0);
 }
-
+.complated{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.selection{
+  display: block;
+  width: 100%;
+  border:  solid 1px darkgreen;
+  padding: 10px 5px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 3px;
